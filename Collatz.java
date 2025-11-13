@@ -14,13 +14,13 @@ public class Collatz {
 			int d = c /2;
 			int e = d /2;
 			int x = 4;
-			System.out.println(v + " " + c + " " + d + " " + e + " (" + x + ") ");
+			System.out.println(v + " " + c + " " + d + " " + e + " (" + x + ")");
 		}else{
 			int c = (v * 3) + 1;
 			int d = c /2;
 			int e = d /2;
 			int x = 4;
-			System.out.println(v + " " + c + " " + d + " " + e + " (" + x + ") ");
+			System.out.println(v + " " + c + " " + d + " " + e + " (" + x + ")");
 			for( int i = 2; i <= num; i++){
 				System.out.print(i + " ");
 				a = i;

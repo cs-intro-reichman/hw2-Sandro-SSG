@@ -16,7 +16,7 @@ public class CalcPi {
 		dif += d;
 		}
 		System.out.println( "pi according to Java: " + a);
-		System.out.println( "pi, approximated: " + (sum - dif) * 4);
+		System.out.println( "pi, approximated:     " + (sum - dif) * 4);
 		
 }
 }
