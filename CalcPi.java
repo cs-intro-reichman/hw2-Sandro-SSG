@@ -16,7 +16,7 @@ public class CalcPi {
 		dif += d;
 		}
 		System.out.printf("pi according to Java: %.15f%n", a);
-        System.out.printf("pi, approximated:     %.16f%n", (sum - dif) * 4);
+        System.out.printf("pi, approximated:     %.15f%n", (double)(sum - dif) * 4);
 		
 }
 }
