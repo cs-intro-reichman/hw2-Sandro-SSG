@@ -15,6 +15,7 @@ public class Collatz {
 				int e = d /2;
 				int x = 4;
 				System.out.println(v + " " + c + " " + d + " " + e + " (" + x + ")");
+				System.out.println("Every one of the first " + num + " hailstone sequences reached 1.");
 			}else{
 				int c = (v * 3) + 1;
 				int d = c /2;
