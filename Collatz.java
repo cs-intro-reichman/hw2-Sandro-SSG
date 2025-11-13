@@ -37,7 +37,7 @@ public class Collatz {
 							System.out.print(a + " ");
 				}
 			}
-			System.out.print( " (" + z + ") ");
+			System.out.print( "(" + z + ")");
 			System.out.println();
 		}
 		}
