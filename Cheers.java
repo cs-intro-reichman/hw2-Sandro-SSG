@@ -20,7 +20,7 @@ public class Cheers {
                         System.out.println("Give me a  " + upperCase.charAt(i) + ": " + upperCase.charAt(i) + "!");
                 }
             }
-            System.out.println("What does that spell? ");
+            System.out.println("What does that spell?");
             for( int q = 0; q < num; q++ ){
                 System.out.println(upperCase + "!!!");
             }
