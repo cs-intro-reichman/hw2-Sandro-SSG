@@ -40,6 +40,7 @@ public class Collatz {
 				System.out.print( "(" + z + ")");
 				System.out.println();
 				}
+				System.out.println("Every one of the first " + num + " hailstone sequences reached 1.");
 			}
 		}else if( bb ){
 			System.out.println("Every one of the first " + num + " hailstone sequences reached 1.");
